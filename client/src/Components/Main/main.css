@@ -1,0 +1,17 @@
+.main__container {
+  width: 616px;
+  height: calc(100vh - 22px);
+}
+.total__search__result {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: -50px;
+}
+.cards__container {
+  margin-top: 20px;
+  height: calc(100vh - 22px);
+  overflow-y: auto;
+}
+.cards__container::-webkit-scrollbar {
+  width: 0px;
+}
